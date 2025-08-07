@@ -17,13 +17,10 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-
-
 model = OpenAIModel(
     model_name=settings.model_name,
     provider=OpenAIProvider(base_url=settings.base_url, api_key=settings.api_key),
 )
-
 agent = Agent(
     model, system_prompt="You are a helpful assistant. Be concise and friendly."
 )

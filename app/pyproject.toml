@@ -1,0 +1,12 @@
+[project]
+name = "docker-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "pydantic-ai>=0.6.2",
+    "pydantic-settings>=2.10.1",
+    "streamlit>=1.48.0",
+]

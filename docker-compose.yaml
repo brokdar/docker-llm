@@ -13,4 +13,4 @@ services:
     provider:
       type: model
       options:
-        model: ${LLM_MODEL_NAME:-ai/smollm2:latest}
+        model: ${MODEL_NAME:-ai/smollm2:latest}
